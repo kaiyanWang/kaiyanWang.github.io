@@ -1,9 +1,9 @@
 ---
 layout: article  # 改用article布局（和About一致，支持更多Theme特性）
 titles:
-  en: Project
+  en: Paper
   zh-Hans: 项目展示
-key: page-project  # 让Theme自动映射URL为/project.html（无需写permalink）
+key: page-paper  # 让Theme自动映射URL为/project.html（无需写permalink）
 article_header:
   type: cover
   image:
