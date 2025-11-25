@@ -102,7 +102,7 @@ header:
       fr-LU   : *FR
       tr      : &TR       Hakkında
       # @end locale config
-    url: /docs/samples.html
+    url: /paper.html
 
   - titles:
       # @start locale config

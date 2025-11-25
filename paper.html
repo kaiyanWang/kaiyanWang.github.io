@@ -1,0 +1,31 @@
+---
+layout: page
+title: Paper
+permalink: /paper.html
+---
+
+<!-- <div class="layout--home">
+  {%- include paginator.html -%}
+</div>
+<script>
+  {%- include scripts/home.js -%}
+</script>
+
+{{ content }} -->
+
+<div class="layout--articles">
+  <section class="my-5">
+    <header><h2 id="page-layout">Page Layout</h2></header>
+    {%- include article-list.html articles=site.posts type='grid' -%}
+  </section>
+
+  <section class="my-5">
+    <header><h2 id="articles-layout">Articles(Home) Layout</h2></header>
+    {%- include article-list.html articles=site.posts type='grid' -%}
+  </section>
+
+  <section class="my-5">
+    <header><h2 id="languages">Languages</h2></header>
+    {%- include article-list.html articles=site.posts type='grid' size='sm' -%}
+  </section>
+</div>
