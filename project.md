@@ -18,4 +18,4 @@ key: page-project  # 唯一标识，Theme会自动生成/project.html
 - 项目1：XXX系统（技术栈：Jekyll + TeXt Theme）
 - 项目2：XXX工具（技术栈：Vue + Node.js）
 
-更多详情可查看：[GitHub仓库](https://github.com/你的用户名)
+更多详情可查看：[GitHub仓库](https://github.com/kaiyanwang)
