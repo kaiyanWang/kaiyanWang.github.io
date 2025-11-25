@@ -10,10 +10,6 @@ titles:
   zh-Hant : &ZH_HANT  專案
   zh-TW   : *ZH_HANT
 key: page-project  # 唯一标识，Theme会自动生成/project.html
-article_header:
-  type: cover
-  image:
-    src: /assets/images/blogs/project-header.jpg  # 可选封面图
 ---
 
 <!-- 这里写你的项目内容，支持Markdown -->
