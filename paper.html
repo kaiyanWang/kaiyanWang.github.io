@@ -5,13 +5,12 @@ permalink: /paper.html
 ---
 
 <div class="layout--articles">
-  <div class="layout--articles">
+
   <section class="my-5">
-    <header><h2>我的项目列表</h2></header>
+    <header><h2>SpringBoot + Vue</h2></header>
     {%- assign project_posts = site.posts | where: "category", "project" -%}
     {%- include article-list.html articles=project_posts type='grid' size='md' -%}
   </section>
-</div>
 
   <section class="my-5">
     <header><h2 id="page-layout">Page Layout</h2></header>
