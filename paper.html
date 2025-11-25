@@ -7,7 +7,7 @@ permalink: /paper.html
 <div class="layout--articles">
 
   <section class="my-5">
-    <header><h2 id="articles-layout">已发表论文</h2></header>
+    <header><h2 id="articles-layout">Published</h2></header>
     {%- assign published_paper = site.posts | where: "category", "published_paper" -%}
     {%- include article-list.html articles=published_paper type='grid' -%}
   </section>

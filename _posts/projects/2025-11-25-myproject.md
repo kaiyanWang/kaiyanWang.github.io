@@ -5,7 +5,7 @@ title: 我的项目列表
 permalink: /articles/item-cover-excerpt-readmore-info.html
 key: articles-item-cover-excerpt-readmore-info
 cover: /assets/images/axure/articles-item-cover-excerpt-readmore-info.jpg  # 替换为你的封面图
-category: project
+category: Flask
 articles:
   data_source: site.posts
   show_excerpt: true

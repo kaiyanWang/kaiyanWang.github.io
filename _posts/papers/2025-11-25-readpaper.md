@@ -1,8 +1,8 @@
 ---
 title: 已阅读
-tags: paper
+tags: Paper
 permalink: /paper/read/read.html
-cover: /assets/images/languages/lang-en.jpg
+cover: /assets/images/axure/page-single.jpg
 category: read_paper
 ---
 

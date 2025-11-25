@@ -1,7 +1,7 @@
 ---
 layout: articles
-tags: Paper
 title: 图像去雾论文列表
+tags: Paper
 permalink: /articles/item-cover-excerpt-readmore-info.html
 key: articles-item-cover-excerpt-readmore-info
 cover: /assets/images/axure/articles-item-cover-excerpt-readmore-info.jpg  # 替换为你的封面图
