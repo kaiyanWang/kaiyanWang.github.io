@@ -1,0 +1,32 @@
+---
+layout: page
+title: Project
+permalink: /project.html
+---
+
+<div class="layout--articles">
+
+  <section class="my-5">
+    <header><h2>SpringBoot</h2></header>
+    {%- assign springboot = site.posts | where: "category", "springboot" -%}
+    {%- include article-list.html articles=springboot type='grid' size='md' -%}
+  </section>
+
+  <section class="my-5">
+    <header><h2>Django</h2></header>
+    {%- assign Django = site.posts | where: "category", "Django" -%}
+    {%- include article-list.html articles=Django type='grid' -%}
+  </section>
+
+  <section class="my-5">
+    <header><h2>Flask</h2></header>
+    {%- assign Flask = site.posts | where: "category", "Flask" -%}
+    {%- include article-list.html articles=Flask type='grid' -%}
+  </section>
+
+  <section class="my-5">
+    <header><h2>Unity3D</h2></header>
+    {%- assign Unity3D = site.posts | where: "category", "Unity3D" -%}
+    {%- include article-list.html articles=Unity3D type='grid' size='sm' -%}
+  </section>
+</div>

@@ -7,23 +7,20 @@ permalink: /paper.html
 <div class="layout--articles">
 
   <section class="my-5">
-    <header><h2>SpringBoot + Vue</h2></header>
-    {%- assign project_posts = site.posts | where: "category", "project" -%}
-    {%- include article-list.html articles=project_posts type='grid' size='md' -%}
+    <header><h2 id="articles-layout">已发表论文</h2></header>
+    {%- assign published_paper = site.posts | where: "category", "published_paper" -%}
+    {%- include article-list.html articles=published_paper type='grid' -%}
   </section>
 
   <section class="my-5">
-    <header><h2 id="page-layout">Page Layout</h2></header>
-    {%- include article-list.html articles=site.posts type='grid' -%}
+    <header><h2>文献阅读笔记</h2></header>
+    {%- assign read_paper = site.posts | where: "category", "read_paper" -%}
+    {%- include article-list.html articles=read_paper type='grid' size='md' -%}
   </section>
 
   <section class="my-5">
-    <header><h2 id="articles-layout">Articles(Home) Layout</h2></header>
-    {%- include article-list.html articles=site.posts type='grid' -%}
-  </section>
-
-  <section class="my-5">
-    <header><h2 id="languages">Languages</h2></header>
-    {%- include article-list.html articles=site.posts type='grid' size='sm' -%}
+    <header><h2>待阅读</h2></header>
+    {%- assign wait_paper = site.posts | where: "category", "wait_paper" -%}
+    {%- include article-list.html articles=wait_paper type='grid' size='sm' -%}
   </section>
 </div>

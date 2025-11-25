@@ -1,11 +1,11 @@
 ---
 layout: articles
-tags: Project
-title: 我的项目列表
+tags: Paper
+title: 图像去雾论文列表
 permalink: /articles/item-cover-excerpt-readmore-info.html
 key: articles-item-cover-excerpt-readmore-info
 cover: /assets/images/axure/articles-item-cover-excerpt-readmore-info.jpg  # 替换为你的封面图
-category: project
+category: read_paper
 articles:
   data_source: site.posts
   show_excerpt: true
@@ -15,7 +15,7 @@ articles:
 
 <div class="article__content" markdown="1">
 
-这是我的项目集合，包含各类开发项目的详情和演示：
+这是图像去雾论文列表集合
 
 <!--more-->
 
