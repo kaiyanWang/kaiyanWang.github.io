@@ -36,7 +36,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 author:
   type      : person # "person" (default), "organization"
   name      : kaiyanwang
-  url       :
+  url       : /landing.html
   avatar    : /assets/images/blogs/Linux.jfif # path or url of avatar image (square)
   bio       : I am an amazing person.
   email     :
@@ -62,7 +62,7 @@ repository_tree: main
 ## => Paths
 ##############################
 paths:
-  root    : # title link url, "/" (default)
+  root    : /landing.html # title link url, "/" (default)
   home    : # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
