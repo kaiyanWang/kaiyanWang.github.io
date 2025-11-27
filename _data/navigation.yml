@@ -24,7 +24,7 @@ header:
       fr-LU   : *FR
       tr      : &TR       Arşivdekiler
       # @end locale config
-    url: /index.html
+    url: /home.html
 
   - titles:
       # @start locale config
