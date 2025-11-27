@@ -36,7 +36,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 author:
   type      : person # "person" (default), "organization"
   name      : kaiyanwang
-  url       : /landing.html
+  url       : 
   avatar    : /assets/images/blogs/Linux.jfif # path or url of avatar image (square)
   bio       : I am an amazing person.
   email     :
