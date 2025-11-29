@@ -29,4 +29,10 @@ permalink: /project.html
     {%- assign Unity3D = site.posts | where: "category", "Unity3D" -%}
     {%- include article-list.html articles=Unity3D type='grid' size='sm' -%}
   </section>
+
+  <section class="my-5">
+    <header><h2>Vue</h2></header>
+    {%- assign Vue = site.posts | where: "category", "Vue" -%}
+    {%- include article-list.html articles=Vue type='grid' size='sm' -%}
+  </section>
 </div>
