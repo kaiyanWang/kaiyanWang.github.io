@@ -26,49 +26,38 @@ titles:
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+### 个人信息​
+姓名：XXX
+性别：X
+电子邮箱：XXXX@XXX​
+教育背景：XXX大学 XXX专业 本科/硕士 20XX.09-20XX.06（如有多段教育经历可依次列出）​
+个人优势：简洁概括3-5个核心竞争力（如：具备扎实的XX技术功底；有XX项目实战经验；熟练掌握XX工具/框架；具备良好的沟通协作与问题解决能力）​
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+### 教育经历​
+#### 20XX.09 - 20XX.06  XXX大学  XXX专业  本科/硕士​
+学业成绩：GPA：X.X/4.0（如有优势可列出）；专业排名：前X%（如有优势可列出）​
+主修课程：XXX、XXX、XXX、XXX（列出3-5门核心/与求职意向相关的课程）​
+荣誉奖项：20XX-20XX学年 校级一等奖学金；20XX年 XX竞赛 省级二等奖（按时间倒序列出，优先列高含金量奖项）​
+学术成果：参与XX校级/省级科研项目（项目名称），负责XX模块；发表论文《XXX》（如有可列出）​
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+### 项目经历​
+#### 20XX.XX - 20XX.XX  XXX项目（如：基于Flask的图像去雾可视化平台）  项目负责人/核心开发​
+项目背景：简要说明项目目的与应用场景（如：为解决图像去雾算法对比分析不直观的问题，构建可视化平台支持算法效果展示与性能评估）​
+核心职责：​
+​
+项目成果：项目顺利上线/完成，支持XX种去雾算法的对比分析；获得XX竞赛奖项/得到导师/客户认可；相关技术方案被XX采用（量化成果优先）​
+#### （如有其他项目，按上述格式依次列出，按时间倒序排列，优先列与求职意向相关的项目）​
+### 实习经历（如有）​
+#### 20XX.XX - 20XX.XX  XXX公司  XXX岗位  实习生​
+工作内容：​
 
-## Features
-
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
-
-## Skins
-
-TeXt has 6 built-in skins, you can also set up your own skin.
-
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
-
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
-
-### Highlight Theme
-
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
-
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+​
+实习成果：独立完成XX功能开发，上线后运行稳定；优化XX流程，提升工作效率XX%；获得部门领导/同事的一致认可（量化成果优先）​
+### 技能证书​
+技术技能：​
+数据库：熟练使用MySQL、Redis；​
+工具/其他：熟练使用Git、Vim、Docker；具备良好的英文文献阅读能力。​
+资格证书：大学英语六级（XX分）；软件设计师证书；XXX职业资格证书（如有可列出）
+​
+### 自我评价
+具备扎实的XX专业基础与XX技术能力，拥有XX项目/实习经历，熟悉XX业务流程；具备较强的学习能力、沟通协作能力与问题解决能力；工作态度认真负责，积极主动，能够快速适应新环境并融入团队；对XX领域（如：后端开发、人工智能）有浓厚兴趣，期待在相关岗位上持续学习与成长。
