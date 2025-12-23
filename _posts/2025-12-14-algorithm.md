@@ -6,6 +6,46 @@ cover: /assets/images/axure/page-single.jpg
 ---
 
 <!--more-->
+# 排序
+### 快速排序
+这种方法只能选第一个元素作为pivot
+```c
+#include<iostream>
+using namespace std;
+const int N = 1e5+5;
+int n;
+int a[N];
+
+void quick_sort(int *q, int l, int r) {
+    if (l > r) return ;
+    int pivotal = a[l];
+    int i = l, j = r;
+    while(i < j) {
+        while(i < j && a[j] >= pivotal) j--;
+        a[i] = a[j];
+        while(i < j && a[i] <= pivotal) i++;
+        a[j] = a[i];
+    }
+    a[i] = pivotal; 
+    quick_sort(q, l, i-1);
+    quick_sort(q, i+1, r);
+}
+int main() {
+    cin >> n;
+    for (int i=0; i < n; i ++) {
+        cin >> a[i];
+    }
+    quick_sort(a, 0, n - 1);
+    for (int i = 0; i < n; i ++) {
+        cout << a[i] << " ";
+    }
+    cout<<endl;
+    return 0;
+}
+
+```
+### 归并排序
+
 
 # dfs
 
