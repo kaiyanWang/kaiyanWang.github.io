@@ -8,11 +8,13 @@ cover: /assets/images/axure/page-single.jpg
 <!--more-->
 # 排序
 ### 快速排序
-这种方法只能选第一个元素作为pivot
+方法一（课本方法）：这种方法只能选第一个元素作为pivot（如果要以数组中的其他的值作为pivotal，需要将其和第一个元素交换）
+
+经过一次快排后（i = j），i左边的都 <= pivotal，i右边的都 >= pivotal，然后将pivotal放入位置i。接下来递归处理（l, i - 1）和（i + 1, r）。
 ```c
-#include<iostream>
+#include <iostream>
 using namespace std;
-const int N = 1e5+5;
+const int N = 1e6 + 5;
 int n;
 int a[N];
 
@@ -42,10 +44,47 @@ int main() {
     cout<<endl;
     return 0;
 }
-
 ```
+
+方法二（模版）：
+
+一次快排后，i左边都 <= x（不包括i），j右边都 >= x（不包括j）。示例：3 1 2 3 5，选3作为x，一轮后，i指向第4个位置的3，j指向第3个位置的2。
+
+```c
+#include <iostream>
+using namespace std;
+const int N = 1e6 + 5;
+int q[N];
+int n;
+
+void quicksort(int *q, int l, int r) {
+    if (l >= r) return ;
+    int i = l - 1, j = r + 1, x = q[(l + r) >> 1];
+    while (i < j) {
+        do i ++; while(q[i] < x);
+        do j --; while(q[j] > x);
+        if (i < j) swap(q[i], q[j]);
+    }
+    quicksort(q, l, j);
+    quicksort(q, j + 1, r);
+}
+int main() {
+    scanf("%d", &n);
+    for (int i = 0; i < n; i ++ ) scanf("%d", &q[i]);
+
+    quicksort(q, 0, n - 1);
+
+    for (int i = 0; i < n; i ++ ) printf("%d ", q[i]);
+    return 0; 
+}
+```
+
 ### 归并排序
 
+模版：
+```c
+
+```
 
 # dfs
 
