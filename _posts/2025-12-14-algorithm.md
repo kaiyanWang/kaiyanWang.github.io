@@ -6,7 +6,7 @@ cover: /assets/images/axure/page-single.jpg
 ---
 
 <!--more-->
-# 排序
+# 基础算法
 ### 快速排序
 方法一（课本方法）：这种方法只能选第一个元素作为pivot（如果要以数组中的其他的值作为pivotal，需要将其和第一个元素交换）
 
@@ -81,11 +81,51 @@ int main() {
 
 ### 归并排序
 
+归并排序要求(l, mid)，和(mid + 1, r)为有序，因此先递归处理这两部分，然后将两个有序序列合并为一个有序序列，可用用辅助数组temp[]存放有序序列。
+
+模版：
+```c
+#include<iostream>
+using namespace std;
+
+const int N = 1e5 + 5;
+int n;
+int q[N], temp[N];
+
+void mergesort(int *q, int l, int r) {
+    if (l >= r) return ;
+    
+    int mid = (l + r) >> 1;
+    mergesort(q, l, mid);
+    mergesort(q, mid + 1, r);
+
+    int i = l, j = mid + 1, k = 0;
+    while (i <= mid && j <= r) {
+        if (q[i] < q[j]) temp[k ++ ] = q[i ++ ];
+        else temp[k ++ ] = q[j ++ ];
+    }
+    while(i <= mid) temp[k ++ ] = q[i ++ ];
+    while(j <= r) temp[k ++ ] = q[j ++ ];
+
+    for (int i = l, j = 0; i <= r; i ++, j ++ ) {
+        q[i] = temp[j];
+    }
+}
+int main() {
+    scanf("%d", &n);
+    for (int i = 0; i < n; i ++ ) scanf("%d", &q[i]);
+    mergesort(q, 0, n - 1);
+    for (int i = 0; i < n; i ++ ) printf("%d ", q[i]);
+    return 0;
+}
+```
+
+### 整数二分
+
 模版：
 ```c
 
 ```
-
 # dfs
 
 全排列
